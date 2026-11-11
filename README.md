@@ -1,3 +1,47 @@
+<div align="center">
+
+# Hangman Game
+
+**Guess a word one character at a time.**
+
+<sub>CLASSIC C++ &nbsp; • &nbsp; Word game &nbsp; • &nbsp; Console application</sub>
+
+</div>
+
+---
+
+## What this project explores
+
+Guess country names one letter at a time before five wrong guesses.
+
+**Try this:** Follow guesses, attempts and the displayed word state.
+
+## Source & structure
+
+| Path | Description |
+|---|---|
+| [`docs`](./docs) | Original project asset / directory |
+| [`hangman-turbo-cplusplus.cpp`](./hangman-turbo-cplusplus.cpp) | Original C++ source code |
+| [`hangman-visual-cplusplus.cpp`](./hangman-visual-cplusplus.cpp) | Original C++ source code |
+| [`run-in-browser.html`](./run-in-browser.html) | Original project asset / directory |
+
+
+## Running the C++ version
+
+The checked-in source includes historical console programs. Some variants use Turbo C++ / DOS-specific headers and APIs, so **a modern C++ compiler may require porting or a compatibility layer**. Open the original source to find its entry point; compile with a compiler compatible with the program's dialect.
+
+## Learning objectives
+
+- Trace the input/output cycle of a stateful console program.
+- Inspect the program's control flow and data handling.
+- Identify portability improvements needed for modern compilers or browsers.
+
+## Disclaimer
+
+A programming exercise, not a production word game system. Use invented test records and do not store confidential information.
+
+<details><summary><strong>Original project notes</strong></summary>
+
 # Hangman Game
 
 Guess country names one letter at a time before five wrong guesses.
@@ -29,3 +73,9 @@ The previous WebAssembly GitHub Actions workflow is not required for this standa
 ### Note
 
 This repository contains archived, third-party classroom-style C++ examples from a previously supplied collection. Review attribution and redistribution rights before publishing as your own original work.
+
+</details>
+
+---
+
+<sub>Part of the [C++ project collection](https://github.com/sharanyapal?tab=repositories).</sub>
